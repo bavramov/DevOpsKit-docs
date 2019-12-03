@@ -3,32 +3,32 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "serverName": {
-            "value": "sqlbavramovdb"
+            "value": "**"
         },
 
         "serverLocation": {
             "value": "West Europe"
         },
         "administratorLogin": {
-            "value": "bavramovdblogin"
+            "value": "**"
         },
         "administratorLoginPassword": {
-            "value": "Pa$$w0rd2019"
+            "value": "**"
         },
         "databaseName": {
-            "value": "umbracocmststsqldb"
+            "value": "**"
         },
         "storageAccountName": {
-            "value": "tstumbracozip007"
+            "value": "**"
         },
         "AAD Admin Login": {
-            "value": "bozhidar.avramov@mail.bg"
+            "value": "**"
         },
         "AAD Admin ObjectID": {
-            "value": "403f237d-2d0a-4b81-907d-3d704ba54af5"
+            "value": "**"
         },
         "AAD TenantId": {
-            "value": "ee166fea-cea5-46b9-a74c-ce5940dea940"
+            "value": "**"
         }
     }
 }
