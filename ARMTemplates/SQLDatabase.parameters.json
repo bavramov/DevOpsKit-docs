@@ -3,32 +3,71 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "serverName": {
-            "value": "sqlbavramovdb"
-        },
-
-        "serverLocation": {
-            "value": "West Europe"
+            "reference": {
+                "keyVault": {
+                    "id": "/subscriptions/42fbd1c0-edd6-4eb1-b698-73e598d4f031/resourceGroups/my-test-group/providers/Microsoft.KeyVault/vaults/tst-umbraco-kv"
+                },
+                "secretName": "serverName"
+            }
         },
         "administratorLogin": {
-            "value": "bavramovdblogin"
+            "reference": {
+                "keyVault": {
+                    "id": "/subscriptions/42fbd1c0-edd6-4eb1-b698-73e598d4f031/resourceGroups/my-test-group/providers/Microsoft.KeyVault/vaults/tst-umbraco-kv"
+                },
+                "secretName": "administratorLogin"
+            }
         },
         "administratorLoginPassword": {
-            "value": "Pa$$w0rd2019"
+            "reference": {
+                "keyVault": {
+                    "id": "/subscriptions/42fbd1c0-edd6-4eb1-b698-73e598d4f031/resourceGroups/my-test-group/providers/Microsoft.KeyVault/vaults/tst-umbraco-kv"
+                },
+                "secretName": "administratorLoginPassword"
+            }
         },
         "databaseName": {
-            "value": "umbracocmststsqldb"
+            "reference": {
+                "keyVault": {
+                    "id": "/subscriptions/42fbd1c0-edd6-4eb1-b698-73e598d4f031/resourceGroups/my-test-group/providers/Microsoft.KeyVault/vaults/tst-umbraco-kv"
+                },
+                "secretName": "databaseName"
+            }
         },
         "storageAccountName": {
-            "value": "tstumbracozip007"
+            "reference": {
+                "keyVault": {
+                    "id": "/subscriptions/42fbd1c0-edd6-4eb1-b698-73e598d4f031/resourceGroups/my-test-group/providers/Microsoft.KeyVault/vaults/tst-umbraco-kv"
+                },
+                "secretName": "storageAccountName"
+            }
         },
         "AAD Admin Login": {
-            "value": "bozhidar.avramov@mail.bg"
+            "reference": {
+                "keyVault": {
+                    "id": "/subscriptions/42fbd1c0-edd6-4eb1-b698-73e598d4f031/resourceGroups/my-test-group/providers/Microsoft.KeyVault/vaults/tst-umbraco-kv"
+                },
+                "secretName": "AADAdminLogin"
+            }
         },
         "AAD Admin ObjectID": {
-            "value": "403f237d-2d0a-4b81-907d-3d704ba54af5"
+            "reference": {
+                "keyVault": {
+                    "id": "/subscriptions/42fbd1c0-edd6-4eb1-b698-73e598d4f031/resourceGroups/my-test-group/providers/Microsoft.KeyVault/vaults/tst-umbraco-kv"
+                },
+                "secretName": "AADAdminObjectID"
+            }
         },
         "AAD TenantId": {
-            "value": "ee166fea-cea5-46b9-a74c-ce5940dea940"
+            "reference": {
+                "keyVault": {
+                    "id": "/subscriptions/42fbd1c0-edd6-4eb1-b698-73e598d4f031/resourceGroups/my-test-group/providers/Microsoft.KeyVault/vaults/tst-umbraco-kv"
+                },
+                "secretName": "AADTenantId"
+            }
+        },
+        "serverLocation": {
+            "value": "West Europe"
         }
     }
 }
