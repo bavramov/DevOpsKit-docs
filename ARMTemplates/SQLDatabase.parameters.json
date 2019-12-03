@@ -3,6 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "serverName": {
+<<<<<<< HEAD
             "reference": {
                 "keyVault": {
                     "id": "/subscriptions/42fbd1c0-edd6-4eb1-b698-73e598d4f031/resourceGroups/my-test-group/providers/Microsoft.KeyVault/vaults/tst-umbraco-kv"
@@ -68,6 +69,34 @@
         },
         "serverLocation": {
             "value": "West Europe"
+=======
+            "value": "**"
+        },
+
+        "serverLocation": {
+            "value": "West Europe"
+        },
+        "administratorLogin": {
+            "value": "**"
+        },
+        "administratorLoginPassword": {
+            "value": "**"
+        },
+        "databaseName": {
+            "value": "**"
+        },
+        "storageAccountName": {
+            "value": "**"
+        },
+        "AAD Admin Login": {
+            "value": "**"
+        },
+        "AAD Admin ObjectID": {
+            "value": "**"
+        },
+        "AAD TenantId": {
+            "value": "**"
+>>>>>>> 69c2cb43f5df1e66970c8a05540f07e09c2d6816
         }
     }
 }
